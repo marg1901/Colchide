@@ -1,0 +1,90 @@
+body {
+background-color:lightskyblue
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    text-align: left;
+}
+
+#Heros {
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    background-image: url(photos/royaume.jpg);
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: rgb(98, 8 112);
+}
+
+ul li a:hover {
+    color: lightseagreen;
+  }
+
+ul {
+    background-color: rgb(205, 237, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(98, 8, 112);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(98, 8, 112)
+}
+
+table {
+    margin: auto;
+    width: 300px;
+    padding-top: 20px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid ;
+}
+
+th, td {
+    border: 1px solid black;    
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px;
+  }
+
+  label {
+    line-height: 3;
+  }
+
+
+
+
+
+
+
+
+
+
