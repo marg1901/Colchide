@@ -80,6 +80,18 @@ form {
     line-height: 3;
   }
 
+  #aigle-img:hover {
+    transform: translate(50px, 50px);
+  }
+
+  #girafe-img:hover {
+    transform: skew(20deg,10deg);
+  }
+
+  #licorne-img:hover {
+    transform: rotate(10deg);
+  }
+
   @media screen and (max-width: 768px){
     ul {
         flex-direction: column;
